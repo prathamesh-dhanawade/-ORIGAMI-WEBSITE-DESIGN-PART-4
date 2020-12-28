@@ -1,0 +1,108 @@
+h1{
+    color:#c92e2e;
+
+    padding-left: 39%;
+}
+/* *{
+   
+}*/
+.header *{
+    background-image: url(images\ \(2\).jpg);
+    border:solid;
+    justify-content: space-between;
+
+}
+
+
+.grid{
+
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   
+}
+
+.item{
+
+position: relative;
+
+
+}
+.item p{
+position: absolute;
+top:85%;
+left: 20%;
+transform: translate(-50%,-50%) ;
+}
+
+p,h3{
+
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(255, 0, 0), 0 0 25px rgb(72, 255, 0), 0 0 5px rgb(0, 0, 255);
+  }
+    
+  p,h3{
+
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px rgb(130, 136, 73), 0 0 25px rgb(0, 255, 234), 0 0 5px rgb(255, 0, 221);
+  }
+
+a:hover { 
+    background-color: red;
+ }
+
+ body{
+    background-image: url(abstract-polygonal-background-carduus.jpg);
+
+background-repeat: no-repeat;
+
+background-position:top;
+background-attachment: fixed;
+
+background-size : 100% 100%; 
+
+
+}
+
+
+.grid img {
+
+border : 2px solid white;
+border-radius: 50px;
+
+
+}
+
+.origami {
+
+    border-radius: 20px;
+    background-color: white;
+
+    width: 310;
+
+    font-family: fantasy;
+}
+
+.menu a{ 
+    margin-left: 50;
+}
+
+a:link {
+    color: white;
+}
+
+a.Project{
+    color: white;
+}
+
+.origami:hover {
+    transform: scale(1.2);
+}
+
+
+h3,h2 {
+
+    border-image: url(292-2929502_gold-border-vectors-png-clipart-removebg-preview.png);
+}
